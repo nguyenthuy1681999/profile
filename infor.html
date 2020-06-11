@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Thông tin cá nhân</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<style>
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/90029571_652744815293680_684148110833745920_n.jpg?_nc_cat=110&_nc_sid=e3f864&_nc_ohc=kiV1tlpUAg8AX9T92IY&_nc_ht=scontent.fhan2-4.fna&oh=0b16f6060d9ebed5790eef397fb44ed3&oe=5F041C6A');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/90029571_652744815293680_684148110833745920_n.jpg?_nc_cat=110&_nc_sid=e3f864&_nc_ohc=kiV1tlpUAg8AX9T92IY&_nc_ht=scontent.fhan2-4.fna&oh=0b16f6060d9ebed5790eef397fb44ed3&oe=5F041C6A");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/90029571_652744815293680_684148110833745920_n.jpg?_nc_cat=110&_nc_sid=e3f864&_nc_ohc=kiV1tlpUAg8AX9T92IY&_nc_ht=scontent.fhan2-4.fna&oh=0b16f6060d9ebed5790eef397fb44ed3&oe=5F041C6A");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container " id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">NGUYỄN<span class="w3-hide-small"> THU</span> THUỶ</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <div>
+    <i class='fas fa-headphones' style='font-size:32px'></i><p>Hãy nghe một bài hát tôi yêu thích trong lúc đọc về tôi nhé!</p>
+    <audio controls>
+      <source src="baihat.mp3" type="audio/mpeg">
+    </audio>
+    </div>
+  <h3 class="w3-center" style="font-size: x-large;">Tự Bạch</h3>
+  <p class="w3-center " style="font-size: medium;"><em>Nguyễn Thị Thu Thuỷ</em></p>
+  <p> <i class='fas fa-pencil-alt' style='font-size:22px'></i> Tôi tên đầy đủ là Nguyễn Thị Thu Thuỷ. Các bạn có thể gọi là Thuỷ, Thu Thuỷ, Nguyễn Thu Thuỷ hoặc gọi tên đầy đủ như bên trên. 
+    Hồi còn bé, tôi thấy họ tên của tôi khá dài và nhiều vần "Th", bố tôi cũng thấy vậy, ông bàn với mọi người rằng sẽ bỏ chữ "Thị"
+    trong tên của tôi nhưng khi phát hiện ra đổi lại họ tên sẽ mất tiền nên ông lại thôi. Tên "Thu Thuỷ" có nghĩa là "Nước Mùa Thu",
+    mẹ đặt tên ấy với mong muốn sau này tôi lớn lên sẽ đẹp trong sáng như làn nước mùa thu. Các bạn thân đại học của tôi sau khi nghe
+    vậy cảm thấy đ thể tin được bèn bịa tên cho tôi là Water Thu cho sang chảnh. Và dưới đây tôi sẽ viết vài thông tin cơ bản về bản thân:
+  </p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Ảnh chân dung</b></p><br>
+      <img src="https://scontent.fhan2-1.fna.fbcdn.net/v/t1.0-9/84702803_802512973589513_6019290124385255424_o.jpg?_nc_cat=102&_nc_sid=730e14&_nc_ohc=rOHJC8ZlgGUAX_CtmYS&_nc_ht=scontent.fhan2-1.fna&oh=dcf5b131d7c15a334aaa6d4186af37ac&oe=5F00F4D4" class="w3-round w3-image" alt="Photo of Me" >
+    </div>
+
+    <div class="w3-col m6 l w3-padding-large">
+      <p><i class='fas fa-gift' style='font-size:24px'></i> Sinh nhật: 16/08/1999 - 3 giờ 25 phút chiều.<br>
+        <i class='far fa-heart' style='font-size:24px'></i> Chiều cao: 1m56, cân nặng: 44 kg.<br>
+        <i class='fas fa-venus-mars' style='font-size:24px'></i></i></i>Giới tính: nữ.<br>
+        <i class='fas fa-graduation-cap' style='font-size:24px'></i>Học vấn: đang học Công nghệ thông tin tại Học viện Công nghệ Bưu chính Viễn thông(PTIT).<br>
+        <i class='far fa-heart' style='font-size:24px;color:red'></i>Độc thân.<br>
+        <i class='fas fa-user-plus' style='font-size:24px'></i>Thông tin nhỏ khác:<br>
+        -Môn thể thao yêu thích: tôi là tôi không thích môn thể thao nào nào dùng đến thể lực cả. Vì tôi rất yếu ớt, kỷ lục đá cầu là: 39 quả, nhảy dây: 30 lượt.
+        Tuy nhiên những môn trí tuệ như chơi cờ bạc gì đó tôi chơi cũng rất ngu. Có lẽ thể thao không hợp với tôi.<br>
+        -Đồ ăn yêu thích: đồ mẹ nấu. Tôi rất kén ăn nhưng tôi ăn được đồ mẹ nấu. Không phải vì mẹ tôi nấu ngon đâu
+        mà là tôi ăn quen từ bé rồi.<br>
+        -Sở trường: chắc là nói nhiều. Nói nhiều chứ nói hay hay không thì bản thân tôi cũng không chắc nhưng tôi nói rất nhiều.
+        Các bạn lúc mới tiếp xúc với tôi cho rằng tôi rất vui tính và dễ gần tuy nhiên một thời gian sau bảo tôi là 
+        chuyên gia xamlin. Như vài bạn nhận xét: "Bé hay kể chuyện lớn lên hay xaolin" chẳng hạn.<br>
+        -Sở thích: được làm những gì mình thích. Tôi hay làm những thứ linh tinh đôi lúc cũng không biết nó để làm gì ví dụ như bản tự bạch này
+        chẳng hạn còn sở đoảng thì tôi không ghi đâu vì ghi thì bao giờ mới hết.
+      </p>
+    </div>
+    <div><i class="fa fa-paperclip" style="font-size:24px;font-size: large;"></i> Một số châm ngôn tôi yêu thích:</div>
+    <blockquote class="w3-panel w3-leftbar w3-light-grey">
+      <p class="w3-large">
+      <i>"Đừng buồn vì bụi hoa hồng có gai mà hãy vui vì trong bụi gai có hoa hồng"</i></p>
+      <p>Abraham Lincoln </p>
+    </blockquote>
+    <blockquote class="w3-panel w3-leftbar w3-light-grey">
+      <p class="w3-large">
+      <i>“Thiên tài 1% là cảm hứng và 99% là mồ hôi.”</i></p>
+      <p>Thomas Edison </p>
+    </blockquote>
+    <blockquote class="w3-panel w3-leftbar w3-light-grey">
+      <p class="w3-large">
+      <i>"Tri thức là trang sức quý giá nhất của phụ nữ."</i></p>
+      <p>Cái này của ai thì quên rồi :((</p>
+    </blockquote>
+  </div>
+  <div>
+    <i class='fas fa-icons' style='font-size:24px'></i> Tôi cũng có một kênh youtube: click vào icon này 
+    để ghé thăm nhé! <a href="https://www.youtube.com/channel/UCfoFVVs3eCgbGMK_M0Hk3-Q?view_as=subscriber"><i class='fab fa-youtube' style='font-size:24px;color:red'></i></a>
+    <br>
+    Và đây là một sản phẩm mv sub của tôi. Một bài hát rất dễ thương tôi muốn dành tặng các bạn. Chúc các bạn luôn vui vẻ!!!
+    <p style="text-align: center;">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/2jDzt3JAJIM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+  </div>
+  <div>
+    <span style="font-weight: bold;">
+     Bạn thấy bài Tự bạch của tôi thế nào <i class='fas fa-question' style='font-size:20px;color:red'></i> Chạm vào dòng nhận xét đúng nhé: <i class='far fa-comment' style='font-size:24px;color: purple;'></i>
+    </span>
+    <br>
+    <span id="id1" onmouseover="clickChoose1()"><i class='fas fa-check' style='font-size:24px;color:green'></i> Thật thú vị
+    </span>
+    <span id="rep1" style="display: none;"><div class="w3-panel w3-card-4 w3-light-grey" style="width:50%">
+      <p class=" w3-large w3-serif">
+      <i class='far fa-thumbs-up' style='font-size:48px;color:seagreen'></i>
+      Cám ơn bạn. Yêu bạn nhiều nhiều :* :*</p>
+      <img src="https://i.pinimg.com/originals/33/4c/e6/334ce663fcf9ec9525c1dc4026a8f5ad.gif">
+    </div></span>
+    <br>
+    <span id="id2"onmouseover="clickChoose2()"><i class='fas fa-times' style='font-size:24px;color:red'></i> Hmmm... khá xamlin :)</span>
+    <span id="rep2" style="display: none;"><div class="w3-panel w3-card-4 w3-light-grey" style="width:50%">
+      <p class=" w3-large w3-serif">
+      <i class='far fa-thumbs-down' style='font-size:48px;color:brown'></i>
+      Kệ mịa bạn, mình làm cho vui thôi. Hi hi :P :P</p>
+      <img src="https://i.pinimg.com/originals/60/07/68/60076830a846cdc6ee6f9867da3926bc.gif">
+    </div></span>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64" style="height: 300px;">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Chuyển lên đầu</a>
+  <div class="w3-xlarge w3-section">
+    Facebook: <a href="https://www.facebook.com/nuocmuathu16081999"><i class='far fa-hand-point-right' style='font-size:36px'></i></a> Nguyễn Thu Thuỷ(Nước Mùa Thu) 
+    <br>
+    <i class="fa fa-envelope"></i> Gmail: nguyenthuthuy1681999@gmail.com </i>
+    <br>
+    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Hà Đông, Hà Nội
+  </div>
+
+</footer>
+<script src="infor.js"></script>
+</body>
+</html>
